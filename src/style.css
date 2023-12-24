@@ -21,6 +21,7 @@ header {
   border-bottom: 1px solid #d2ebcd;
   padding: 0 0 30px 0;
 }
+
 .search-form-input {
   background-color: #d2ebcd;
   border: none;
@@ -101,10 +102,6 @@ main {
   margin-bottom: 10px;
 }
 
-.weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
-}
 .weather-forecast-temperatures {
   text-align: center;
   color: #ff7f5b;
@@ -115,6 +112,13 @@ main {
 
 .weather-forecast-temperature {
   padding: 0 10px;
+}
+
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
